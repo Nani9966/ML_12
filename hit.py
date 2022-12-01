@@ -29,3 +29,9 @@ git reset --soft 6afd
 git log
 
 git add .
+git status
+git commit -m "this is our first over version"
+git config --global user.email "chinnareddy2106@gmail.com"
+git config --global user.name "Chinna reddy"
+git commit -m "this is our first over version"
+git push origin main -f
