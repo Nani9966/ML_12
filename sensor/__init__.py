@@ -1,1 +1,0 @@
-/config/workspace/sensor.egg-info
