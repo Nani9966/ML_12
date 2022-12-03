@@ -1,10 +1,10 @@
 from sensor.logger import logging
-from sensor.exception import sensorException
+from sensor.exception import SensorException
 
 def test_logger_and_exception():
      try:
           logging.info("starting the test logger and exception")
-          result=3/10
+          result=3/0
           print(result)
           logging.info("stopping the test logger and exception")
           pass
@@ -14,6 +14,6 @@ def test_logger_and_exception():
 
 if __name__== "__main__":
      try:
-          pass
+          test_logger_and_exception()
      except Exception as e:
           print(e)
